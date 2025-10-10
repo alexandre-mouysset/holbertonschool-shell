@@ -33,3 +33,7 @@ this script move the file betty from /tmp/ to /tmp/my_first_directory
 #!/bin/bash
 rm /tmp/my_first_directory/betty
 this script remove betty
+
+#!/bin/bash
+rm -r /tmp/my_first_directory
+this script remove the directory
