@@ -25,3 +25,7 @@ this script display current directory contents
 #!/bin/bash
 mkdir /tmp/my_first_directory
 this script create a directory named my_first_directory in the /tmp/ directory
+
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory/
+this script move the file betty from /tmp/ to /tmp/my_first_directory
