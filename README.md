@@ -64,3 +64,7 @@ Create a script that moves all files beginning with an uppercase letter to the d
 #!/bin/bash
 rm -rf *~
 create a script that deletes all files in the current working directory that end with the character ~
+
+#!/bin/bash
+mkdir -p welcome/to/school
+Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.two spaces allowed
