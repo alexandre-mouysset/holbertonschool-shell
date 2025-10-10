@@ -5,3 +5,7 @@ this script print the absolute path name of the current working directory
 #!/bin/bash
 ls
 this script displays the contents list of the current directory
+
+#!/bin/bash
+cd
+this script changes the working directory
