@@ -13,3 +13,7 @@ this script changes the working directory
 #!/bin/bash
 ls -s
 this script display the current directory contents in a long format
+
+#!/bin/bash
+ls -a
+this script display the current directory contents, including hidden files
