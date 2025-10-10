@@ -39,5 +39,5 @@ rm -r /tmp/my_first_directory
 this script remove the directory
 
 #!/bin/bash
-cd ..
+cd -
 this script change de working directory to the previous one
