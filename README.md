@@ -15,5 +15,5 @@ ls -s
 this script display the current directory contents in a long format
 
 #!/bin/bash
-ls -a
+ls -la
 this script display the current directory contents, including hidden files
