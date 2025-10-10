@@ -17,3 +17,7 @@ this script display the current directory contents in a long format
 #!/bin/bash
 ls -la
 this script display the current directory contents, including hidden files
+
+#!!/bin/bash
+ls -lan
+this script display current directory contents
