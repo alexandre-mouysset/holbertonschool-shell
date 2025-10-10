@@ -29,3 +29,7 @@ this script create a directory named my_first_directory in the /tmp/ directory
 #!/bin/bash
 mv /tmp/betty /tmp/my_first_directory/
 this script move the file betty from /tmp/ to /tmp/my_first_directory
+
+#!/bin/bash
+rm /tmp/my_first_directory/betty
+this script remove betty
