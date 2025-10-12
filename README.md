@@ -68,3 +68,7 @@ create a script that deletes all files in the current working directory that end
 #!/bin/bash
 mkdir -p welcome/to/school
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.two spaces allowed
+
+#!/bin/bash
+su - betty
+switches the current user to the user betty
