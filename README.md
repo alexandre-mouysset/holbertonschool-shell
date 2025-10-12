@@ -80,3 +80,7 @@ print the effective username of the current user
 #!/bin/bash
 groups
 prints all the groups the current user is part of
+
+#!/bin/bash
+chown betty hello
+changes the owner of the file hello to the user betty
