@@ -76,3 +76,7 @@ switches the current user to the user betty
 #!/bin/bash
 whoami
 print the effective username of the current user
+
+#!/bin/bash
+groups
+prints all the groups the current user is part of
