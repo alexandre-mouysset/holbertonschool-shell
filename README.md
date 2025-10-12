@@ -88,3 +88,7 @@ changes the owner of the file hello to the user betty
 #!/bin/bash
 touch hello
 create an empty file called hello
+
+#!/bin/bash
+chmod u+x hello
+add execute permission to the owner of the file hello
