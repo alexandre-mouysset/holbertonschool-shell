@@ -154,3 +154,7 @@ display the content of the /etc/passwd file
 #!/bin/bash
 cat /etc/passwd
 display the content
+
+#!/bin/bash
+tail -n 10 /etc/passwd
+display the last 10 lines
