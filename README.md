@@ -158,3 +158,7 @@ display the content
 #!/bin/bash
 tail -n 10 /etc/passwd
 display the last 10 lines
+
+#!/bin/bash
+head -n 10 /etc/passwd
+display the first 10 lines
