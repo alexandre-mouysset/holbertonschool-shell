@@ -115,3 +115,7 @@ script that sets the mod of the file hello
 
 #!/bin/bash
 chmod --reference=olleh hello
+
+#!/bin/bash
+chmod +x -R */
+script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
