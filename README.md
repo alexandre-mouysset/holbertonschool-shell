@@ -138,3 +138,7 @@ script that changes the owner and the group owner of _hello to vincent and staff
 
 The file _hello is in the working directory
 The file _hello is a symbolic link
+
+#!/bin/bash
+echo "Hello, World"
+prints "Hello, World", followed by a new line to the standard output
