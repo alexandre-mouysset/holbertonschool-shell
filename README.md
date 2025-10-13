@@ -119,3 +119,7 @@ chmod --reference=olleh hello
 #!/bin/bash
 chmod +x -R */
 script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+
+#!/bin/bash
+mkdir my_dir && chmod 751 my_dir
+script that creates a directory called my_dir with permissions 751 in the working directory.
