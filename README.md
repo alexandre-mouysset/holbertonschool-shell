@@ -150,3 +150,7 @@ display a confuse smiley
 #!/bin/bash
 cat /etc/passwd
 display the content of the /etc/passwd file
+
+#!/bin/bash
+cat /etc/passwd
+display the content
