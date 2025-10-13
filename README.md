@@ -142,3 +142,11 @@ The file _hello is a symbolic link
 #!/bin/bash
 echo "Hello, World"
 prints "Hello, World", followed by a new line to the standard output
+
+#!/bin/bash
+echo "\"(Ôo)'"
+display a confuse smiley
+
+#!/bin/bash
+cat /etc/passwd
+display the content of the /etc/passwd file
