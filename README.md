@@ -112,3 +112,6 @@ Other users: all the permissions
 #!/bin/bash
 chmod 753 hello
 script that sets the mod of the file hello
+
+#!/bin/bash
+chmod --reference=olleh hello
