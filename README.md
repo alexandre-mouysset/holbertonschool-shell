@@ -162,3 +162,7 @@ display the last 10 lines
 #!/bin/bash
 head -n 10 /etc/passwd
 display the first 10 lines
+
+#!/bin/bash
+head -n 3 iacta | tail -n 1
+display the third line
