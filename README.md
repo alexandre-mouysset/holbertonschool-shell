@@ -109,4 +109,6 @@ Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
 
-
+#!/bin/bash
+chmod 753 hello
+script that sets the mod of the file hello
