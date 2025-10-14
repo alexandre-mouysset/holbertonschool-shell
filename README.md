@@ -172,5 +172,5 @@ echo -e "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'
 shell script that creates a file named
 
 #!/bin/bash
-tail n-1 >> iacta 
+tail n-1 iacta >> iacta 
 duplicates the last line of the file iacta  
