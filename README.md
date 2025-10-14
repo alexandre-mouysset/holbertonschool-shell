@@ -220,5 +220,13 @@ grep -i '^[a-z]' /etc/passwd/sshd_config
 display all lines of the file starting with a letter including capital letter aswell
 
 #!/bin/bash
-tr 'Ac' 'ze'
-replace all character A and c from input to z and e respectively  
+tr 'Ac' 'Ze'
+replace all character A and c from input to z and e respectively
+
+#!/bin/bash
+tr -d 'cC'
+remove all letters c and C from input
+
+#!/bin/bash
+ver 
+reverse its input  
