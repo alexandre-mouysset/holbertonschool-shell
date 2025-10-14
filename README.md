@@ -166,3 +166,11 @@ display the first 10 lines
 #!/bin/bash
 head -n 3 iacta | tail -n 1
 display the third line
+
+#!/bin/bash
+echo -e "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'
+shell script that creates a file named
+
+#!/bin/bash
+tail n-1 >> iacta 
+duplicates the last line of the file iacta  
