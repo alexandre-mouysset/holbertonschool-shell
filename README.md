@@ -177,4 +177,12 @@ duplicates the last line of the file iacta
 
 #!/bin/bash
 find . -type f -name "*.js" -delete   
-deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders  
+deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
+
+#!/bin/bash
+find . -type d -mindepth 1 | wc -l
+counts the number of directories and sub-directories in the current directory.
+The current and parent directories should not be taken into account
+Hidden directories should be counted
+
+  
