@@ -205,4 +205,12 @@ display the lines containing the pattern root from the file
 
 #!/bin/bash
 grep -c bin /etc/passwd
-display the number of lines that contain the pattern bin the in the file  
+display the number of lines that contain the pattern bin the in the file
+
+#!/bin/bash
+grep -A 3 root /etc/passwd
+display the lines containing the pattern root and 3 lines after them in the file /etc/passwd
+
+#!/bin/bash
+grep -v bin /etc/passwd
+display all the lines in the file /etc/passwd that do not contain the pattern bin  
