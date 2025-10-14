@@ -202,4 +202,7 @@ Words should be sorted
 #!/bin/bash
 grep root /etc/passwd
 display the lines containing the pattern root from the file
-  
+
+#!/bin/bash
+grep -c bin /etc/passwd
+display the number of lines that contain the pattern bin the in the file  
