@@ -185,4 +185,9 @@ counts the number of directories and sub-directories in the current directory.
 The current and parent directories should not be taken into account
 Hidden directories should be counted
 
+#!/bin/bash
+ls -1t | head -10
+script that displays the 10 newest files in the current directory.
+One file per line
+Sorted from the newest to the oldest
   
