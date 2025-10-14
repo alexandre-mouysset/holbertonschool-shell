@@ -213,4 +213,12 @@ display the lines containing the pattern root and 3 lines after them in the file
 
 #!/bin/bash
 grep -v bin /etc/passwd
-display all the lines in the file /etc/passwd that do not contain the pattern bin  
+display all the lines in the file /etc/passwd that do not contain the pattern bin
+
+#!/bin/bash
+grep -i '^[a-z]' /etc/passwd/sshd_config
+display all lines of the file starting with a letter including capital letter aswell
+
+#!/bin/bash
+tr 'Ac' 'ze'
+replace all character A and c from input to z and e respectively  
