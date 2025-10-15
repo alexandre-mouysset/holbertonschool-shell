@@ -267,5 +267,12 @@ create a new global variable
 echo $((TRUEKNOWLEDGE + 128))
 prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
+#!/bin/bash
+echo $((POWER/DIVIDE))
+script that prints the result of power divided by divide, followed by a new line
+
+#!/bin/bash
+echo $((BREATH ** LOVE))
+script that display the result of BREATH to the power LOVE
 
   
