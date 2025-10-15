@@ -291,6 +291,12 @@ Do not print oo
 Your script file should contain maximum 64 characters
 
 #!/bin/bash
-printf "%.2f" "$NUM"
+printf "%.2f\n" "$NUM"
  script that prints a number with two decimal places, followed by a new line.
+
+#!/bin/bash
+echo $(16#(10#DECIMAL))
+script that convert a number from base 10 to 16
+
+
   
