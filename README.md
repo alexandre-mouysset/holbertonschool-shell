@@ -275,4 +275,8 @@ script that prints the result of power divided by divide, followed by a new line
 echo $((BREATH ** LOVE))
 script that display the result of BREATH to the power LOVE
 
+
+#!/bin/bash
+echo $((2#BINARY))
+script that converts a number from base 2 to base 10
   
