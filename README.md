@@ -264,7 +264,7 @@ export BEST="School"
 create a new global variable
 
 #!/bin/bash
-echo "TRUEKNOWLEDGE=$((TRUEKNOWLEDGE+128))"
+echo $((TRUEKNOWLEDGE+128))"
 prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
 
