@@ -255,5 +255,9 @@ createa script that lists environnement variables
 set
 create a script that list all local variables , environment and functions
 
+#!/bin/bash
+BEST="School"
+create a new local  variable
+
 
   
