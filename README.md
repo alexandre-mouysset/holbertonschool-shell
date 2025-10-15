@@ -277,6 +277,6 @@ script that display the result of BREATH to the power LOVE
 
 
 #!/bin/bash
-echo $((2#BINARY))
+echo $((2#$BINARY))
 script that converts a number from base 2 to base 10
   
