@@ -257,7 +257,11 @@ create a script that list all local variables , environment and functions
 
 #!/bin/bash
 BEST="School"
-create a new local  variable
+create a new local variable
+
+#!/bin/bash
+export BEST="School"
+create a new global variable
 
 
   
