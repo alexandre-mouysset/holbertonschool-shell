@@ -236,5 +236,7 @@ alias ls='rm -f *'
 create a script that create an alias
 
 #!/bin/bash
-user=$(whoami); printf "%s Hello " "$user"
-create a script that prints "hello user", where user is the current linux user  
+printf "%s Hello " "whoami"
+create a script that prints "hello user", where user is the current linux user
+
+  
