@@ -248,6 +248,8 @@ echo "$PATH" | tr ":" "\n" | grep -v "^$" | wc -l
 Create a script that counts the number of directories in the PATH
 
 #!/bin/bash
+printenv
+createa script that lists environnement variables
 
 
   
