@@ -244,7 +244,10 @@ export PATH="$PATH:/action"
 Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 #!/bin/bash
-echo "$PATH" | grep -o ":" | wc -l
+echo "$PATH" | tr ":" "\n" | grep -v "^$" | wc -l
 Create a script that counts the number of directories in the PATH
+
+#!/bin/bash
+
 
   
