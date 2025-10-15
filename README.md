@@ -251,5 +251,9 @@ Create a script that counts the number of directories in the PATH
 printenv
 createa script that lists environnement variables
 
+#!/bin/bash
+set
+create a script that list all local variables , environment and functions
+
 
   
