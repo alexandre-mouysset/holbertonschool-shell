@@ -263,5 +263,9 @@ create a new local variable
 export BEST="School"
 create a new global variable
 
+#!/bin/bash
+TRUEKNOWLEDGE=$((1+2+8))
+prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
 
   
